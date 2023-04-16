@@ -5,6 +5,6 @@ Wolf
 Sloth
 Dog
 Cat
-Rat
+Bat
 Deer
 Cow
