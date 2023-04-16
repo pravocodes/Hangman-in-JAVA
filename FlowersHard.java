@@ -162,6 +162,7 @@ public class FlowersHard extends JFrame {
                                     JOptionPane.YES_NO_OPTION);
                             if (answer == JOptionPane.YES_OPTION) {
                                 frame.dispose();
+                                count=0;
                                 win_count = 0;
                                 new FlowersHard().setVisible(true);
                             } else {
@@ -197,6 +198,7 @@ public class FlowersHard extends JFrame {
                                     JOptionPane.YES_NO_OPTION);
                             if (answer == JOptionPane.YES_OPTION) {
                                 frame.dispose();
+                                count=0;
                                 win_count = 0;
                                 new FlowersHard().setVisible(true);
                             } else {
