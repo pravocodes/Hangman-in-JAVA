@@ -188,7 +188,7 @@ public class FlowersHard extends JFrame {
                             frame.add(c7);
                         }
 
-                        if (count == 6) {
+                        if (count == 4) {
                             score = 0;
                             JOptionPane.showMessageDialog(frame, selected_word, "revealed word",
                                     JOptionPane.INFORMATION_MESSAGE);
