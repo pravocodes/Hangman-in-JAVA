@@ -162,6 +162,7 @@ public class AnimalEasy extends JFrame {
                                     JOptionPane.YES_NO_OPTION);
                             if (answer == JOptionPane.YES_OPTION) {
                                 frame.dispose();
+                                count=0;
                                 win_count = 0;
                                 new AnimalEasy().setVisible(true);
                             } else {
@@ -205,6 +206,7 @@ public class AnimalEasy extends JFrame {
                                     JOptionPane.YES_NO_OPTION);
                             if (answer == JOptionPane.YES_OPTION) {
                                 frame.dispose();
+                                count=0;
                                 win_count = 0;
                                 new AnimalEasy();
                             } else {
