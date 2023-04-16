@@ -231,7 +231,7 @@ public class FlowersEasy extends JFrame {
         // hangLabels[0].setBounds(400, -50, hangLabels[0].getPreferredSize().width,
         // hangLabels[0].getPreferredSize().height);
         // hintButton
-        ImageIcon hintpic = new ImageIcon("C:\\Users\\hp\\Documents\\LPU\\java\\hangman\\Hint.png");
+        ImageIcon hintpic = new ImageIcon("images\\Hint.png");
         JButton hangbutton = new JButton(hintpic);
         hangbutton.setBounds(10, 250, 450, hangbutton.getPreferredSize().height);
         hangbutton.setBackground(Color.decode("#E7FFFF"));
