@@ -163,6 +163,7 @@ public class AnimalHard extends JFrame {
                             if (answer == JOptionPane.YES_OPTION) {
                                 frame.dispose();
                                 win_count = 0;
+                                count=0;
                                 new AnimalHard().setVisible(true);
                             } else {
                                 frame.dispose();
@@ -198,6 +199,7 @@ public class AnimalHard extends JFrame {
                             if (answer == JOptionPane.YES_OPTION) {
                                 frame.dispose();
                                 win_count = 0;
+                                count=0;
                                 new AnimalHard().setVisible(true);
                             } else {
                                 frame.dispose();
