@@ -161,6 +161,7 @@ public class AnimalMedium extends JFrame {
                                     "GAME OVER",
                                     JOptionPane.YES_NO_OPTION);
                             if (answer == JOptionPane.YES_OPTION) {
+                                count=0;
                                 frame.dispose();
                                 win_count = 0;
                                 new AnimalMedium().setVisible(true);
@@ -201,6 +202,7 @@ public class AnimalMedium extends JFrame {
                                     JOptionPane.YES_NO_OPTION);
                             if (answer == JOptionPane.YES_OPTION) {
                                 frame.dispose();
+                                count=0;
                                 win_count = 0;
                                 new AnimalMedium().setVisible(true);
                             } else {
